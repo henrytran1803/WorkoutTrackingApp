@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D22413802BA68CB2004F35A5 /* WorkoutTrackingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224137F2BA68CB2004F35A5 /* WorkoutTrackingAppApp.swift */; };
-		D22413822BA68CB2004F35A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413812BA68CB2004F35A5 /* ContentView.swift */; };
-		D22413842BA68CB2004F35A5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413832BA68CB2004F35A5 /* Item.swift */; };
 		D22413862BA68CB4004F35A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22413852BA68CB4004F35A5 /* Assets.xcassets */; };
 		D22413892BA68CB4004F35A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22413882BA68CB4004F35A5 /* Preview Assets.xcassets */; };
 		D22413932BA68CB5004F35A5 /* WorkoutTrackingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413922BA68CB5004F35A5 /* WorkoutTrackingAppTests.swift */; };
 		D224139D2BA68CB5004F35A5 /* WorkoutTrackingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224139C2BA68CB5004F35A5 /* WorkoutTrackingAppUITests.swift */; };
 		D224139F2BA68CB5004F35A5 /* WorkoutTrackingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224139E2BA68CB5004F35A5 /* WorkoutTrackingAppUITestsLaunchTests.swift */; };
+		D22413B12BA68D75004F35A5 /* MuscleGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413B02BA68D75004F35A5 /* MuscleGroupModel.swift */; };
+		D22413BF2BA6D48B004F35A5 /* SubMuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413BE2BA6D48B004F35A5 /* SubMuscleGroup.swift */; };
+		D22413C22BA6D502004F35A5 /* SubMuscleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413C12BA6D502004F35A5 /* SubMuscleView.swift */; };
+		D22413C42BA6DB71004F35A5 /* SubMuscleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413C32BA6DB71004F35A5 /* SubMuscleDetail.swift */; };
+		D22413C62BA6DD83004F35A5 /* MuscleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413C52BA6DD83004F35A5 /* MuscleGroupView.swift */; };
+		D22413C82BA6DD9C004F35A5 /* MuscleGroupDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413C72BA6DD9C004F35A5 /* MuscleGroupDetail.swift */; };
+		D22413CB2BA6E65A004F35A5 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22413CA2BA6E65A004F35A5 /* Setting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,6 @@
 /* Begin PBXFileReference section */
 		D224137C2BA68CB2004F35A5 /* WorkoutTrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D224137F2BA68CB2004F35A5 /* WorkoutTrackingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTrackingAppApp.swift; sourceTree = "<group>"; };
-		D22413812BA68CB2004F35A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D22413832BA68CB2004F35A5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D22413852BA68CB4004F35A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22413882BA68CB4004F35A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D224138E2BA68CB5004F35A5 /* WorkoutTrackingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTrackingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +49,13 @@
 		D22413982BA68CB5004F35A5 /* WorkoutTrackingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTrackingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D224139C2BA68CB5004F35A5 /* WorkoutTrackingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTrackingAppUITests.swift; sourceTree = "<group>"; };
 		D224139E2BA68CB5004F35A5 /* WorkoutTrackingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTrackingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D22413B02BA68D75004F35A5 /* MuscleGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupModel.swift; sourceTree = "<group>"; };
+		D22413BE2BA6D48B004F35A5 /* SubMuscleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMuscleGroup.swift; sourceTree = "<group>"; };
+		D22413C12BA6D502004F35A5 /* SubMuscleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMuscleView.swift; sourceTree = "<group>"; };
+		D22413C32BA6DB71004F35A5 /* SubMuscleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMuscleDetail.swift; sourceTree = "<group>"; };
+		D22413C52BA6DD83004F35A5 /* MuscleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupView.swift; sourceTree = "<group>"; };
+		D22413C72BA6DD9C004F35A5 /* MuscleGroupDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupDetail.swift; sourceTree = "<group>"; };
+		D22413CA2BA6E65A004F35A5 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +106,11 @@
 		D224137E2BA68CB2004F35A5 /* WorkoutTrackingApp */ = {
 			isa = PBXGroup;
 			children = (
+				D22413AE2BA68CDF004F35A5 /* Common */,
+				D22413AD2BA68CD7004F35A5 /* Models */,
+				D22413AC2BA68CC8004F35A5 /* Components */,
+				D22413AB2BA68CC3004F35A5 /* UI */,
 				D224137F2BA68CB2004F35A5 /* WorkoutTrackingAppApp.swift */,
-				D22413812BA68CB2004F35A5 /* ContentView.swift */,
-				D22413832BA68CB2004F35A5 /* Item.swift */,
-				D22413852BA68CB4004F35A5 /* Assets.xcassets */,
 				D22413872BA68CB4004F35A5 /* Preview Content */,
 			);
 			path = WorkoutTrackingApp;
@@ -128,6 +139,74 @@
 				D224139E2BA68CB5004F35A5 /* WorkoutTrackingAppUITestsLaunchTests.swift */,
 			);
 			path = WorkoutTrackingAppUITests;
+			sourceTree = "<group>";
+		};
+		D22413AB2BA68CC3004F35A5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D22413AC2BA68CC8004F35A5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D22413C92BA6E64F004F35A5 /* Home */,
+				D22413C02BA6D4F2004F35A5 /* SubMuscle */,
+				D22413B22BA68ECC004F35A5 /* MuscleGroup */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D22413AD2BA68CD7004F35A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D22413B02BA68D75004F35A5 /* MuscleGroupModel.swift */,
+				D22413BE2BA6D48B004F35A5 /* SubMuscleGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D22413AE2BA68CDF004F35A5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D22413AF2BA68CE6004F35A5 /* Resources */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D22413AF2BA68CE6004F35A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D22413852BA68CB4004F35A5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D22413B22BA68ECC004F35A5 /* MuscleGroup */ = {
+			isa = PBXGroup;
+			children = (
+				D22413C52BA6DD83004F35A5 /* MuscleGroupView.swift */,
+				D22413C72BA6DD9C004F35A5 /* MuscleGroupDetail.swift */,
+			);
+			path = MuscleGroup;
+			sourceTree = "<group>";
+		};
+		D22413C02BA6D4F2004F35A5 /* SubMuscle */ = {
+			isa = PBXGroup;
+			children = (
+				D22413C12BA6D502004F35A5 /* SubMuscleView.swift */,
+				D22413C32BA6DB71004F35A5 /* SubMuscleDetail.swift */,
+			);
+			path = SubMuscle;
+			sourceTree = "<group>";
+		};
+		D22413C92BA6E64F004F35A5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D22413CA2BA6E65A004F35A5 /* Setting.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +339,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D22413822BA68CB2004F35A5 /* ContentView.swift in Sources */,
-				D22413842BA68CB2004F35A5 /* Item.swift in Sources */,
+				D22413B12BA68D75004F35A5 /* MuscleGroupModel.swift in Sources */,
 				D22413802BA68CB2004F35A5 /* WorkoutTrackingAppApp.swift in Sources */,
+				D22413C22BA6D502004F35A5 /* SubMuscleView.swift in Sources */,
+				D22413C82BA6DD9C004F35A5 /* MuscleGroupDetail.swift in Sources */,
+				D22413C62BA6DD83004F35A5 /* MuscleGroupView.swift in Sources */,
+				D22413BF2BA6D48B004F35A5 /* SubMuscleGroup.swift in Sources */,
+				D22413CB2BA6E65A004F35A5 /* Setting.swift in Sources */,
+				D22413C42BA6DB71004F35A5 /* SubMuscleDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
